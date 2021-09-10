@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHARITY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+    <style>
+        #home::before {
+            content: "";
+            position: absolute;
+            height: 642px;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: -1;
+            opacity: 1.00;
+        }
+        
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 24px 190px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        
+        body {
+            background: url('bg.jpg')no-repeat center center/cover;
+            background-size: fixed;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="peace.jpg" alt="Peace">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="contact.php">Contact Us</a></li>
+            <li class="item"><a href="https://www.thesparksfoundationsingapore.org/">TSF</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">WELCOME!</h1>
+        <p>The Donate Workspace!</p>
+        <p>The perfect place for you to derive pleasure from your work!</p>
+        <br>
+        <br>
+        <br>
+        <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HvPg3arzgqLKnw" async>
+            </script>
+        </form>
+
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; Helping is a virtue! All rights reserved!
+        </div>
+    </footer>
+
+</body>
+
+</html>
